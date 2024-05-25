@@ -21,16 +21,3 @@ prices = {
 def calculate_tattoo_cost(size, design, style, placement):
     total_cost = prices[size] + prices[design] + prices[style] + prices[placement]
     return total_cost
-
-# Пример использования функции
-# print('Выбери размер(small, medium, large)')
-# size = input()
-# print('Есть ли эскиз(sketch_design, null)')
-# design = input()
-# print('Стиль(realistic_style, geometric_style, minimalist_style)')
-# style = input()
-# print('Место(forearm_placement, back_placement, chest_placement, leg_placement')
-# placement = input()
-
-# cost = calculate_tattoo_cost(size, design, style, placement)
-# print(f"Приблизительная стоимость тату: ${cost}")
